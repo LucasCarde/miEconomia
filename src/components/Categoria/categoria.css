@@ -1,0 +1,33 @@
+.categoryCard {
+    background-color: #FFFFFF; /* Fondo blanco */
+    border: 1px solid #E0E0E0; /* Borde gris claro */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 21px; 
+    text-align: left; /* Alineación del texto */
+    width: 250px; /* Ancho de la tarjeta */
+    font-family: 'Arial', sans-serif; /* Fuente limpia y legible */
+    width: fit-content;
+}
+
+.categoryTitle {
+    font-size: 12px; /* Tamaño de fuente del título */
+    font-weight: bold; /* Texto en negrita */
+    color: #000000; /* Texto negro */
+    margin-bottom: 10px; /* Espaciado inferior */
+    width: fit-content;
+  }
+  
+.categoryAmount {
+    font-size: 22px; /* Tamaño grande para el monto */
+    font-weight: bold; /* Texto en negrita */
+    color: #000000; /* Texto negro */
+    margin-bottom: 10px; /* Espaciado inferior */
+    width: fit-content;
+  }
+  
+.categoryDiff {
+    font-size: 10px; /* Tamaño pequeño para los detalles */
+    color: #9E9E9E; /* Texto gris claro */
+    width: fit-content;
+  }

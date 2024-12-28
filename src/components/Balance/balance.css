@@ -1,0 +1,41 @@
+.balance-card {
+    background-color: #0A2647;
+    color: white; 
+    border-radius: 20px; 
+    padding: 20px 40px; 
+    width: 280px; 
+    text-align: center; /* Centrar el texto */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+    position: absolute; /* Para posicionar el icono */
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  .balance-card .cardTitle {
+    font-size: 16px; /* Tamaño de la fuente del título */
+    font-weight: 600; /* Texto en negrita */
+    margin-bottom: 10px; /* Espaciado inferior */
+    position: absolute; 
+    top: 18px; 
+    left: 18px; 
+
+  }
+  
+  .balance-card .amount {
+    font-size: 40px; /* Tamaño grande para el monto */
+    font-weight: bold; /* Texto en negrita */
+    margin: 50px auto 30px;
+  }
+  
+  .balance-card .icon {
+    position: absolute; 
+    top: 18px; 
+    right: 18px; /* Separación desde la derecha */
+    font-size: 20px; /* Tamaño del icono */
+    cursor: pointer; /* Indica que es interactivo */
+  }
+  
