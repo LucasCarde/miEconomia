@@ -3,6 +3,7 @@ import './App.css'
 import Footer from './components/Footer/Footer'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import HomePage from './components/HomePage/HomePage'
+import UltimosMovimientos from './components/UltimosMovimientos/UltimosMovimientos'
 
 function App() {
 
@@ -11,9 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/balance" element={''} />
-        <Route path="/categorias" element={''} />
-        <Route path="/footer" element={''} /> 
+        <Route path="/ultimosMovimientos" element={<UltimosMovimientos/>} />
       </Routes>
       <Footer />
     </BrowserRouter>

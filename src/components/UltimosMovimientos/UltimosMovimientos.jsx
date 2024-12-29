@@ -3,14 +3,13 @@ import Balance from '../Balance/Balance'
 import Pagetitle from '../PageTitle/PageTitle'
 import CategoriaContainer from '../CategoriaContainer/CategoriaContainer'
 
-const HomePage = () => {
+const UltimosMovimientos = () => {
   return (
     <>
-        <Pagetitle message='miEconomia'/>
+        <Pagetitle message='movimientos'/>
         <Balance />
-        <CategoriaContainer />
     </>
   )
 }
 
-export default HomePage
+export default UltimosMovimientos

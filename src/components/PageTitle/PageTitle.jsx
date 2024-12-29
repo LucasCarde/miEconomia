@@ -1,9 +1,9 @@
 import React from 'react'
 import './pageTitle.css'
 
-const Pagetitle = () => {
+const Pagetitle = ({message}) => {
   return (
-    <div className='title'>miEconomia</div>
+    <div className='title'>{message}</div>
   )
 }
 
