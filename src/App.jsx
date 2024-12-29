@@ -1,18 +1,22 @@
 import 'react'
 import './App.css'
-import Balance from './components/Balance/Balance'
-import Pagetitle from './components/PageTitle/PageTitle'
-import CategoriaContainer from './components/CategoriaContainer/CategoriaContainer'
 import Footer from './components/Footer/Footer'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import HomePage from './components/HomePage/HomePage'
 
 function App() {
 
   return (
     <>
-    <Pagetitle />
-    <Balance />
-    <CategoriaContainer />
-    <Footer />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/balance" element={''} />
+        <Route path="/categorias" element={''} />
+        <Route path="/footer" element={''} /> 
+      </Routes>
+      <Footer />
+    </BrowserRouter>
     </>
   )
 }
