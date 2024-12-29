@@ -20,4 +20,5 @@
     flex-wrap: wrap; /* Permitir que los elementos bajen a la siguiente fila si no caben */
     gap: 20px; /* Espaciado entre las tarjetas */
     justify-content: center;
+    padding-bottom: 100px;
 }
