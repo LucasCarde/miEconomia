@@ -10,4 +10,6 @@
     font-family: "Inter", serif;
     font-style: normal;
     font-weight: bold;
+    z-index: 1000;
+    padding: 10px;
 }
