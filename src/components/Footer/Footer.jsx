@@ -7,11 +7,13 @@ import { MdHistory } from "react-icons/md";
 
 const Footer = () => {
   return (
+    <>
+    <FaPlusCircle className='agregarMovimiento'/>
     <div className='footer'>
     <FaHouse className='casita'/> 
-    <FaPlusCircle className='agregarMovimiento'/>
     <MdHistory className='ultimosMovimientos'/>
     </div>
+    </>
   )
 }
 

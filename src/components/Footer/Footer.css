@@ -8,17 +8,21 @@
 }
 
 .casita{
-    font-size: 3rem;
-    margin: auto 60px 10px auto;
+    font-size: 2rem;
+    margin: auto 110px 10px auto;
 }
 
 .agregarMovimiento{
-    font-size: 6rem;
-    margin-bottom: 15px;
+    font-size: 4rem;
+    position: fixed;
+    left: 50%;  
+    transform: translateX(-50%);
+    bottom: 15px;
     color: #0A2647;
+    z-index: 1000;
 }
 
 .ultimosMovimientos{
-    font-size: 3.8rem;
-    margin: auto auto 5px 60px;
+    font-size: 2.8rem;
+    margin: auto auto 5px 110px;
 }
