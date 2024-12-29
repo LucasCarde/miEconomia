@@ -1,11 +1,11 @@
 .title {
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: auto;
     text-align: center;
     width: 100%;
     color: black;
+    background-color: white;
     font-family: "Inter", serif;
     font-style: normal;
     font-weight: bold;

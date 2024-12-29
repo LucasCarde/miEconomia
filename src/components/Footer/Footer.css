@@ -1,0 +1,24 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    display: inline;
+    width: 100%;
+    left: 0;
+}
+
+.casita{
+    font-size: 3rem;
+    margin: auto 60px 10px auto;
+}
+
+.agregarMovimiento{
+    font-size: 6rem;
+    margin-bottom: 15px;
+    color: #0A2647;
+}
+
+.ultimosMovimientos{
+    font-size: 3.8rem;
+    margin: auto auto 5px 60px;
+}

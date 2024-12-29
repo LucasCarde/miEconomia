@@ -3,7 +3,7 @@ import './App.css'
 import Balance from './components/Balance/Balance'
 import Pagetitle from './components/PageTitle/PageTitle'
 import CategoriaContainer from './components/CategoriaContainer/CategoriaContainer'
-import './components/CategoriaContainer/categoriaContainer.css'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -11,8 +11,8 @@ function App() {
     <>
     <Pagetitle />
     <Balance />
-    <p className="sectionTitle">Gastos</p>
     <CategoriaContainer />
+    <Footer />
     </>
   )
 }
