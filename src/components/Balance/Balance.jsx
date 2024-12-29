@@ -4,7 +4,6 @@ import {IoEyeOutline} from "react-icons/io5";
 
 const Balance = () => {
     const [show, setShow] = useState(true)
-
     const changeVisibility = () => {
         setShow(!show)
     }

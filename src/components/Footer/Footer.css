@@ -12,6 +12,10 @@
     margin: auto 110px 10px auto;
 }
 
+.casita:hover{
+    color: grey;
+}
+
 .agregarMovimiento{
     font-size: 4rem;
     position: fixed;
@@ -25,4 +29,8 @@
 .ultimosMovimientos{
     font-size: 2.8rem;
     margin: auto auto 5px 110px;
+}
+
+.ultimosMovimientos:hover{
+    color: grey;
 }
