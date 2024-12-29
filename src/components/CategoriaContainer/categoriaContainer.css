@@ -1,6 +1,6 @@
 .sectionTitle{
     position: absolute;
-    top: 325px;
+    top: 35%;
     left: 18%;  
     transform: translateX(-50%);
     text-align: center;
@@ -14,7 +14,7 @@
 
 .CategoriaContainer{
     position: absolute;
-    top: 43%;
+    top:50%;
     left: 0;
     display: flex; /* Usamos Flexbox */
     flex-wrap: wrap; /* Permitir que los elementos bajen a la siguiente fila si no caben */

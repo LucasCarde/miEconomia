@@ -7,7 +7,7 @@
     text-align: center; /* Centrar el texto */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* Sombra sutil */
     position: absolute; /* Para posicionar el icono */
-    top: 12%;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
     font-family: "Inter", serif;
