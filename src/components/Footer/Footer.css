@@ -23,6 +23,8 @@
     transform: translateX(-50%);
     bottom: 15px;
     color: #0A2647;
+    background-color: white;
+    border-radius: 50px;
     z-index: 1000;
 }
 
