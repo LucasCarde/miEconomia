@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
         <Pagetitle message='miEconomia'/>
-        <Balance />
+        <Balance padding='20'/>
         <CategoriaContainer />
     </>
   )

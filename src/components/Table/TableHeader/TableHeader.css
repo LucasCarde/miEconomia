@@ -1,0 +1,45 @@
+
+.containerHeader {
+    background-color: #0A2647;
+    color: white;
+    border-radius: 15px;
+    width: 280px;
+    /* Centrar el texto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    /* Sombra sutil */
+    position: absolute;
+    /* Para posicionar el icono */
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0 40px;
+}
+
+.row {
+    display: flex;
+    /* Activa el diseño en fila */
+    justify-content: space-around;
+    /* Espaciado entre columnas */
+}
+
+.colIzq{
+    text-align: left;
+    padding: 10px;
+    margin: auto 5px;
+    float: left;
+}
+
+.colDer{
+    text-align: right;
+    padding: 10px;
+    margin: auto 5px;
+    float: right;
+}
+
+.colMed{
+    text-align: center;
+    padding: 10px;
+}
