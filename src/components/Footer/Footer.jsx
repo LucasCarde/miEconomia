@@ -9,7 +9,9 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-    <FaPlusCircle className='agregarMovimiento'/>
+    <Link to='/agregarMovimiento' className='links' style={{'textDecoration': 'none', color: 'inherit'}}>
+      <FaPlusCircle className='agregarMovimiento'/>
+    </Link>
     <div className='footer'>
     <Link to='/' className='links' style={{'textDecoration': 'none', color: 'inherit'}}>
     <FaHouse className='casita'/> 

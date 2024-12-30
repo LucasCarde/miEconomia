@@ -6,7 +6,7 @@ import Table from '../Table/Table'
 const UltimosMovimientos = () => {
   return (
     <>
-        <Pagetitle message='movimientos'/>
+        <Pagetitle message='ultimosMovimientos'/>
         <Balance padding='0'/>
         <Table />
     </>

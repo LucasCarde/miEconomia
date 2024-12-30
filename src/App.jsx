@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import HomePage from './components/HomePage/HomePage'
 import UltimosMovimientos from './components/UltimosMovimientos/UltimosMovimientos'
+import AgregarMovimiento from './components/AgregarMovimiento/AgregarMovimiento'
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/ultimosMovimientos" element={<UltimosMovimientos/>} />
-        <Route path="/agregarMovimiento" element={''} />
+        <Route path="/agregarMovimiento" element={<AgregarMovimiento/>} />
       </Routes>
       <Footer />
     </BrowserRouter>
