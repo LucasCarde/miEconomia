@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/ultimosMovimientos" element={<UltimosMovimientos/>} />
+        <Route path="/agregarMovimiento" element={''} />
       </Routes>
       <Footer />
     </BrowserRouter>
