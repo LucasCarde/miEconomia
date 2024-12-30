@@ -7,10 +7,65 @@ import './TableBody.css'
 const TableBody = () => {
   return (
     <Container className='containerBody'>
-      <Row>
-        <Col className='colIzqBody'>Fecha</Col>
-        <Col className='colMedBody'>Monto</Col>
-        <Col className='colDerBody'>Descripcion</Col>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
+      </Row>
+      <Row className='rowBody'>
+        <Col className='tableRowItem'>Fecha</Col>
+        <Col className='tableRowItem'>Monto</Col>
+        <Col className='tableRowItem'>Descripcion</Col>
       </Row>
     </Container>
   )

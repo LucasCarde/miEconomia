@@ -43,3 +43,18 @@
     text-align: center;
     padding: 10px;
 }
+
+
+.tableHeader {
+    display: flex;
+    background-color: #152542;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .tableHeaderItem {
+    flex: 1;
+    text-align: center;
+  }

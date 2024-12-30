@@ -1,3 +1,30 @@
 .containerBody{
     background-color: #E8EAED;
+    padding: 5px 40px;
+    border-radius: 15px;
+    width: 75%; /* Ajuste responsivo */
+    position: absolute;
+    /* Para posicionar el icono */
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    overflow: hidden; /* Para recortar cualquier exceso */
+    margin-bottom: 100px; /* Espacio para el botón flotante */
+}
+
+.rowBody {
+    padding: 10px 0;
+    display: flex;
+    border-bottom: 1px solid #d4d2d2; /* Línea de separación */
+}
+
+.rowBody:last-child {
+    border-bottom: none; /* Quitar la línea de la última fila */
+}
+  
+.tableRowItem {
+    flex: 1;
+    text-align: center;
+    color: #333;
 }
