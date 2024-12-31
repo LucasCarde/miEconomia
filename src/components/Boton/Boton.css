@@ -2,8 +2,8 @@
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 3%;
+    padding-right: 3%;
     position: relative;
     top: 8%;
 }
