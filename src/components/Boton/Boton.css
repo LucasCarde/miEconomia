@@ -1,0 +1,24 @@
+.botones-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: relative;
+    top: 8%;
+}
+
+.botones {
+    color: black;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin-right: 11px; /* Espacio entre botones */
+}
+
+.botones:focus, .botones:hover {
+    color: white;
+    background-color: #0A2647;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
